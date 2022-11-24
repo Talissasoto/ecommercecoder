@@ -1,3 +1,5 @@
+
+import CartWidget from "../CartWidget"
 import React from "react";
 export const Navbar = () => {
     return (
@@ -15,7 +17,7 @@ export const Navbar = () => {
         <a class="nav-link" href="#">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="#"><CartWidget /></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
