@@ -6,9 +6,10 @@ const Item = ({info}) => {
    
     return (
     <a href= "" className="clothes">
-    <img src="info.image" alt="" />
-    <p>info.title</p>
+    <img src={info.image} alt="" />
+    <p>{info.title}</p>
     </a>
+   
     );
 }
 export default Item;
